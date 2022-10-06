@@ -21,7 +21,7 @@
 
 #### Диаграмма компонентов:
 
-> ![diagramma of components](https://github.com/slava-ovchinnikov/education-task-calculator/blob/master/doc/digrama_of_components.png?raw=true)
+> ![diagramma of components](./image.png)
 
 #### Необходимый функционал:
 
