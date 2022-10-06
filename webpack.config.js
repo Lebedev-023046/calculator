@@ -50,12 +50,14 @@ const baseConfig = {
   resolve: {
     extensions: ['*', '.js', '.jsx'],
     alias: {
+      '@': path.resolve('./src/'),
       '@assets': path.resolve('./src/assets'),
       '@components': path.resolve('./src/components'),
       '@constants': path.resolve('./src/constants'),
       '@pages': path.resolve('./src/pages'),
       '@store': path.resolve('./src/store'),
       '@utils': path.resolve('./src/utils'),
+      '@redux': path.resolve('./src/redux'),
     },
   },
   output: {
