@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const SHeader = styled.div`
   display: flex;
@@ -28,17 +29,15 @@ export const Sul = styled.ul`
   list-style-type: none;
 `
 
-export const Sli = styled.li`
-  text-decoration: none;
-  }
-`
+export const Sli = styled.li``
 
-export const Sa = styled.a`
+export const Sa = styled(Link)`
   display: block;
   margin: 0 1rem;
   cursor: pointer;
-  text-decoration: none;
+  color: white;
   position: relative;
+  text-decoration: none;
 
   &:after {
     display: block;
