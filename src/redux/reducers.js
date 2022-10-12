@@ -4,6 +4,7 @@ import { combineReducers } from 'redux'
 const initialState = {
   expressionHistory: '',
   currentValue: '',
+  expression: '',
   historyList: [],
 }
 
