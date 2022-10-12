@@ -2,8 +2,8 @@ import GlobalStyle from '@/globalStyles'
 import React from 'react'
 import Header from '@components/Header'
 import { Routes, Route } from 'react-router-dom'
-import { Home } from '@/pages/home'
-import { Settings } from '@/pages/settings'
+import { Home } from '@/pages/Home'
+import { Settings } from '@/pages/Settings'
 
 export const App = () => {
     return (
